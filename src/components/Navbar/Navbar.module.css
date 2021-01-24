@@ -71,4 +71,9 @@
         display: flex;
         justify-content: center;
     }
+
+    .icons i:hover {
+        color: #243D85;
+        transition: linear .3s;
+    }
 }
