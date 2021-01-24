@@ -19,12 +19,15 @@
 }
 
 .heroText h1 {
-    font-size: 25px;
+    display: inline;
+    font-size: 23px;
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .heroText p {
-    font-size: 15px;
+    font-size: 12px;
+    color: #ddd;
 }
 
 @media only screen and (min-width: 768px){

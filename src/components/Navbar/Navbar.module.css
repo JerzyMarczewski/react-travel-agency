@@ -48,6 +48,7 @@
 }
 
 .options h6 {
+    font-size: 20px;
     margin: 5px;
     cursor: pointer;
 }
@@ -70,6 +71,10 @@
     .options {
         display: flex;
         justify-content: center;
+    }
+
+    .options h6:hover {
+        color:  #172653;
     }
 
     .icons i:hover {

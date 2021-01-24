@@ -34,7 +34,7 @@ const Navbar = () => {
                 <h6>About</h6>
                 <h6>Team</h6>
                 <h6>News</h6>
-                <h6>Contacta</h6>
+                <h6>Contact</h6>
             </nav>
             <div className={styles.icons}>
                 <i class="fab fa-facebook-square" />
