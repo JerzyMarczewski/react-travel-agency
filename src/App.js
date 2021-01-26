@@ -1,4 +1,5 @@
 import React from "react";
+import DiscoverBlock from "./components/DiscoverBlock/DiscoverBlock";
 import ExploreBlock from "./components/ExploreBlock/ExploreBlock";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
@@ -9,6 +10,7 @@ const App = () => {
             <Navbar />
             <Hero />
             <ExploreBlock />
+            <DiscoverBlock />
         </div>
     )
 }
