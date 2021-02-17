@@ -1,13 +1,16 @@
 import React from "react";
 import styles from "./DiscoverBlock.module.css";
 
-const DiscoverBlock = () => {
+const DiscoverBlock = (props) => {
     return (
-        <div className={styles.container}>
-            <div className={styles.discoverImage} />
+        <div className={ props.alt ? styles.containerAlt : styles.container}>
+            <div className={styles.discoverImage} 
+                style={{backgroundImage: `url(${props.img})`, backgroundPosition: `${props.bgPosition}`}
+            }/>
             <div className={styles.discoverText}>
-                <h1>Discover Unlimited Beauty</h1>
-                <p>Meet unique people, cultures, traditions and landscapes. Pick a destination and we will take care of the rest.</p>
+                <h1>{props.heading}</h1>
+                <p>{props.text}</p>
+                <p className={styles.text2}>{props.text2}</p>
             </div>
         </div>
     )
