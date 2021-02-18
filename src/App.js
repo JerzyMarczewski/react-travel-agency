@@ -5,6 +5,9 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import tajMahalPhoto from "./images/taj-mahal.jpg";
 import mountainPhoto from "./images/mountain.jpg";
+import palmsPhoto from "./images/palms.jpg";
+import beachPhoto from "./images/beach.jpg";
+import MultiPhotoBlock from "./components/MultiPhotoBlock/MultiPhotoBlock";
 
 const App = () => {
     return (
@@ -16,6 +19,12 @@ const App = () => {
                 img={tajMahalPhoto}
                 heading="Discover Unlimited Beauty"
                 text="Meet unique people, cultures, traditions and landscapes. Pick a destination and we will take care of the rest."
+            />
+            <MultiPhotoBlock 
+                image1={beachPhoto}
+                image2={mountainPhoto}
+                image3={palmsPhoto}
+                image4={tajMahalPhoto}
             />
             <DiscoverBlock 
             img={mountainPhoto}

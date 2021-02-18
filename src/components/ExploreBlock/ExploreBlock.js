@@ -9,7 +9,7 @@ const ExploreBlock = () => {
             <div className={styles.exploreText}>
                 <h1>Explore the world</h1>
                 <p>Amazing adventures around the world are waiting for you. Treat yourself and see our offers.</p>
-                <OffersButton />
+                <OffersButton text="Explore Our Offers" />
             </div>
             
         </div>
