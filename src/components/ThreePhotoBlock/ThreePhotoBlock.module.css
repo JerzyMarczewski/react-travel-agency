@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+    padding: 15px;
+}
+
+.heading {
+    font-size: 25px;
+    margin: 28px 0;
+}
+
+.description {
+    font-size: 16px;
+    margin: 20px 0;
+}
+.cardsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        text-align: center;
+        padding: 32px;
+    }
+    
+    .heading {
+        font-size: 25px;
+        margin: 28px 0;
+    }
+    
+    .description {
+        font-size: 16px;
+        margin: 32px 200px;
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    
+
+}
