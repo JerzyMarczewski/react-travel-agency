@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
@@ -29,12 +30,12 @@ const Navbar = () => {
             <p className={styles.motto}>Vacations just for you</p>
             <button className={styles.btn} onClick={handleMenuClick}>Menu{ hiddenOptions ? "+" : "-" }</button>
             <nav className={hiddenOptions ? styles.options && styles.hidden : styles.options }>
-                <h6>Home</h6>
-                <h6>Services</h6>
-                <h6>About</h6>
-                <h6>Team</h6>
-                <h6>News</h6>
-                <h6>Contact</h6>
+                <h6><Link to="/">Home</Link></h6>
+                <h6><Link to="/services">Services</Link></h6>
+                <h6><Link to="/about">About</Link></h6>
+                <h6><Link to="/team">Team</Link></h6>
+                <h6><Link to="/news"></Link></h6>
+                <h6><Link to="/contact">Contact</Link></h6>
             </nav>
             <div className={styles.icons}>
                 <i class="fab fa-facebook-square" />

@@ -5,6 +5,14 @@
     font-family: 'Playfair Display', serif;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #243D85;
+}
+
 .container {
     text-align: center;
     width: 100%;
