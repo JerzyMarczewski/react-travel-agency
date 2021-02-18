@@ -10,6 +10,7 @@ import {
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./pages/Services.js";
 import Home from "./pages/Home";
+import About from "./pages/About";
 
   const App = () => {
       return (
@@ -18,7 +19,7 @@ import Home from "./pages/Home";
             
             <Switch>
                 <Route path="/services" render={Services}/>
-                <Route path="/about" />
+                <Route path="/about" render={About}/>
                 <Route path="/team" />
                 <Route path="/news" />
                 <Route path="/contact" />

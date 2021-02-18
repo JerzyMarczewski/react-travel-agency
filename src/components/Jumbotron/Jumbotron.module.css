@@ -2,9 +2,13 @@
     color: #FFF;
     text-align: center;
 
+    min-height: 400px;
     width: 100%;
     padding: 50px 40px 80px;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .heading1 {
