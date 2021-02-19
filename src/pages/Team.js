@@ -1,6 +1,7 @@
 import React from "react";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
 import PersonCard from "../components/PersonCard/PersonCard";
+import ThreePhotoBlock from "../components/ThreePhotoBlock/ThreePhotoBlock";
 import employee from "../images/employee.jpg";
 import employee2 from "../images/employee2.jpg";
 import employee3 from "../images/employee3.jpg";
@@ -9,7 +10,12 @@ import footer from "../images/footer.jpg";
 const Team = () => {
     return (
         <div>
-            <div style={{margin: "60px"}} />
+            <ThreePhotoBlock 
+                heading="Team"
+                description="We are a small team of talented professionals with a wide range of 
+                    skills and experience. We love what we do, and we do it with passion. 
+                    We look forward to finding your dream vacation."
+            />
             <PersonCard       
                 image={employee}
                 name="Joan Smith"

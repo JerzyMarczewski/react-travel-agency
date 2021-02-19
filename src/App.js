@@ -11,6 +11,7 @@ import Services from "./pages/Services.js";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Team from "./pages/Team";
+import News from "./pages/News";
 
   const App = () => {
       return (
@@ -21,7 +22,7 @@ import Team from "./pages/Team";
                 <Route path="/services" render={Services}/>
                 <Route path="/about" render={About}/>
                 <Route path="/team" render={Team}/>
-                <Route path="/news" />
+                <Route path="/news" render={News}/>
                 <Route path="/contact" />
                 <Route path="/" render={Home}/>
             </Switch>
