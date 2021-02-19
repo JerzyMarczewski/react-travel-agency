@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 a:link,
@@ -24,6 +24,9 @@ a:active {
     letter-spacing: 2px;
     margin: 5px;
     cursor: default;
+    color: #000 !important; 
+    font-weight: 900;
+    cursor: pointer;
 }
 
 .motto {
@@ -57,7 +60,7 @@ a:active {
 
 .options h6 {
     font-size: 20px;
-    margin: 5px;
+    margin-right: 15px;
     cursor: pointer;
 }
 

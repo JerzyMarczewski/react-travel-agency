@@ -26,7 +26,7 @@ const Navbar = () => {
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.name}>Viaggio</h1>
+            <Link to="/"><h1 className={styles.name}>Viaggio</h1></Link>
             <p className={styles.motto}>Vacations just for you</p>
             <button className={styles.btn} onClick={handleMenuClick}>Menu{ hiddenOptions ? "+" : "-" }</button>
             <nav className={hiddenOptions ? styles.options && styles.hidden : styles.options }>
@@ -34,7 +34,7 @@ const Navbar = () => {
                 <h6><Link to="/services">Services</Link></h6>
                 <h6><Link to="/about">About</Link></h6>
                 <h6><Link to="/team">Team</Link></h6>
-                <h6><Link to="/news"></Link></h6>
+                <h6><Link to="/news">News</Link></h6>
                 <h6><Link to="/contact">Contact</Link></h6>
             </nav>
             <div className={styles.icons}>
