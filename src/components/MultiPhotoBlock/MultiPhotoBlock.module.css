@@ -55,6 +55,13 @@
         justify-content: space-around;
     }
 
+    .textContainer {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }    
+
     .textContainer h1 {
         font-size: 23px;
     }

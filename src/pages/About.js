@@ -1,7 +1,7 @@
 import React from "react";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
 import ThreePhotoBlock from "../components/ThreePhotoBlock/ThreePhotoBlock";
-import beachPhoto from "../images/beach.jpg";
+import footer from "../images/footer.jpg";
 
 const About = () => {
     return (
@@ -22,7 +22,7 @@ const About = () => {
             />
 
             <Jumbotron 
-                image={beachPhoto}
+                image={footer}
                 heading2="Let’s Travel Together"
                 buttonText="Get In Touch"
             />

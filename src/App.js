@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Team from "./pages/Team";
 import News from "./pages/News";
+import Contact from "./pages/Contact";
 
   const App = () => {
       return (
@@ -23,7 +24,7 @@ import News from "./pages/News";
                 <Route path="/about" render={About}/>
                 <Route path="/team" render={Team}/>
                 <Route path="/news" render={News}/>
-                <Route path="/contact" />
+                <Route path="/contact" render={Contact}/>
                 <Route path="/" render={Home}/>
             </Switch>
 
