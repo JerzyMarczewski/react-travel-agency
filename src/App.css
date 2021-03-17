@@ -1,11 +1,16 @@
 * {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
     min-height: 100vh;
-    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,0.4)), url("./images/beach.jpg");
 }
+
+.bg{
+    height: 200vh;
+}
+

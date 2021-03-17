@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 
 import Navbar from "./components/Navbar/Navbar";
+import "./App.css";
+import img from "./images/beach.jpg";
 // import Services from "./pages/Services.js";
 // import Home from "./pages/Home";
 // import About from "./pages/About";
@@ -28,6 +30,7 @@ import Navbar from "./components/Navbar/Navbar";
                 <Route path="/contact" render={Contact}/>
                 <Route path="/" render={Home}/>
             </Switch> */}
+            <div className="bg"></div>
 
 
 
