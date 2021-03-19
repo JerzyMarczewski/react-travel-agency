@@ -7,10 +7,8 @@
 
 body {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,0.4)), url("./images/beach.jpg");
+    
 }
 
-.bg{
-    height: 200vh;
-}
+
 

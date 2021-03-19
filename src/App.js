@@ -7,7 +7,8 @@ import {
 
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
-import img from "./images/beach.jpg";
+import PillButton from "./components/PillButton/PillButton";
+import Hero from "./components/Hero/Hero";
 // import Services from "./pages/Services.js";
 // import Home from "./pages/Home";
 // import About from "./pages/About";
@@ -21,7 +22,8 @@ import img from "./images/beach.jpg";
           
         <BrowserRouter>
             <Navbar />
-            
+            {/* <div style={{height: "6rem"}}></div> */}
+            <Hero></Hero>
             {/* <Switch>
                 <Route path="/services" render={Services}/>
                 <Route path="/about" render={About}/>

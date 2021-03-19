@@ -16,6 +16,9 @@
     align-items: center;
     box-shadow: 0 2px 10px 0 #000;
     transition: all 100ms ease-in-out;
+    z-index: 1;
+    
+    height: 6rem;
 }
 
 .navbar.alternative {
