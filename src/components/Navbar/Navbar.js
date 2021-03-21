@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
     
@@ -15,18 +15,19 @@ const Navbar = () => {
 
 
     return (
-        <div className={ y > 0 ? "navbar" : "navbar alternative"}>
-            <div className="logo">Viaggio<span>.</span></div>
-            <div className={ hamburgerClicked ? "hamburger clicked" : "hamburger"} onClick={() => setHamburgerClicked(!(hamburgerClicked))}>
-                <div className="line"></div>
+        <div className={ y > 0 ? styles.navbar : `${styles.navbar} ${styles.alternative}`}>
+            <div className={styles.logo}>Viaggio<span>.</span></div>
+            <div className={ hamburgerClicked ? `${styles.hamburger} ${styles.clicked}` : styles.hamburger} 
+                onClick={() => setHamburgerClicked(!(hamburgerClicked))}>
+                <div className={styles.line} />
             </div>
-            <div className={ hamburgerClicked ? "options" : "options hidden" }>
-                <Link className={ y > 0 ? "option" : "option alternative"}>Home</Link>
-                <Link className={ y > 0 ? "option" : "option alternative"}>Services</Link>
-                <Link className={ y > 0 ? "option" : "option alternative"}>About</Link>
-                <Link className={ y > 0 ? "option" : "option alternative"}>Team</Link>
-                <Link className={ y > 0 ? "option" : "option alternative"}>News</Link>
-                <Link className={ y > 0 ? "option" : "option alternative"}>Contact</Link>
+            <div className={ hamburgerClicked ? styles.options : `${styles.options} ${styles.hidden}` }>
+                <Link className={ y > 0 ? styles.option : `${styles.option} ${styles.alternative}`}>Home</Link>
+                <Link className={ y > 0 ? styles.option : `${styles.option} ${styles.alternative}`}>Services</Link>
+                <Link className={ y > 0 ? styles.option : `${styles.option} ${styles.alternative}`}>About</Link>
+                <Link className={ y > 0 ? styles.option : `${styles.option} ${styles.alternative}`}>Team</Link>
+                <Link className={ y > 0 ? styles.option : `${styles.option} ${styles.alternative}`}>News</Link>
+                <Link className={ y > 0 ? styles.option : `${styles.option} ${styles.alternative}`}>Contact</Link>
             </div>
         </div>
     )

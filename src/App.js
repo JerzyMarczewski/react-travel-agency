@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import PillButton from "./components/PillButton/PillButton";
 import Hero from "./components/Hero/Hero";
+import Block1 from "./components/Block1/Block1";
 // import Services from "./pages/Services.js";
 // import Home from "./pages/Home";
 // import About from "./pages/About";
@@ -24,6 +25,7 @@ import Hero from "./components/Hero/Hero";
             <Navbar />
             {/* <div style={{height: "6rem"}}></div> */}
             <Hero></Hero>
+            <Block1 />
             {/* <Switch>
                 <Route path="/services" render={Services}/>
                 <Route path="/about" render={About}/>
@@ -32,7 +34,7 @@ import Hero from "./components/Hero/Hero";
                 <Route path="/contact" render={Contact}/>
                 <Route path="/" render={Home}/>
             </Switch> */}
-            <div className="bg"></div>
+            
 
 
 
