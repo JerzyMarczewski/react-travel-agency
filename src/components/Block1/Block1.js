@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./Block1.module.css";
 import woods from "../../images/woods.jpg";
 
+// This block contains an image with a heading overlaping it and some text next to it
+
 const Block1 = () => {
     return (
         <div className={styles.container}>

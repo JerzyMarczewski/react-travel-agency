@@ -10,6 +10,7 @@ import "./App.css";
 import PillButton from "./components/PillButton/PillButton";
 import Hero from "./components/Hero/Hero";
 import Block1 from "./components/Block1/Block1";
+import Block2 from "./components/Block2/Block2";
 // import Services from "./pages/Services.js";
 // import Home from "./pages/Home";
 // import About from "./pages/About";
@@ -26,6 +27,7 @@ import Block1 from "./components/Block1/Block1";
             {/* <div style={{height: "6rem"}}></div> */}
             <Hero></Hero>
             <Block1 />
+            <Block2 />
             {/* <Switch>
                 <Route path="/services" render={Services}/>
                 <Route path="/about" render={About}/>
