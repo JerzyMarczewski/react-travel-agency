@@ -5,7 +5,7 @@
 }
 
 .container {
-    color: #fff;
+    color: #f0f0f0;
     background-color: #0f0f0f;
     
     width: 100%;
@@ -36,7 +36,7 @@
     height: 50vw;
     margin: 2rem 0;
     border-radius: .2rem;
-    border: 1px solid white;
+    border: 1px solid #f0f0f0;
 }
 
 .image {
@@ -60,7 +60,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #fff;
+    background-color: #f0f0f0;
     color: #04724D;
     display: flex;
     flex-direction: column;
@@ -103,7 +103,7 @@
     .imageContainer {
         width: 23%;
         margin: 0rem 1%;
-        width: 20vw;
+        width: 23%;
         height: 15vw;
     }
 }

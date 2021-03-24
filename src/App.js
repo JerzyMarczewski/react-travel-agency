@@ -11,6 +11,7 @@ import PillButton from "./components/PillButton/PillButton";
 import Hero from "./components/Hero/Hero";
 import Block1 from "./components/Block1/Block1";
 import Block2 from "./components/Block2/Block2";
+import Block3 from "./components/Block3/Block3";
 // import Services from "./pages/Services.js";
 // import Home from "./pages/Home";
 // import About from "./pages/About";
@@ -28,6 +29,7 @@ import Block2 from "./components/Block2/Block2";
             <Hero></Hero>
             <Block1 />
             <Block2 />
+            <Block3 />
             {/* <Switch>
                 <Route path="/services" render={Services}/>
                 <Route path="/about" render={About}/>
