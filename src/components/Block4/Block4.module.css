@@ -19,6 +19,10 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    .container {
+        padding: 3.2rem 3.2rem 8rem;
+    }
+
     .heading {
         font-size: 4rem;
     }
@@ -32,12 +36,20 @@
 }
 
 @media only screen and (min-width: 1440px) {
+    .container {
+        padding: 3.2rem 3.2rem 10rem;
+    }
+
     .heading {
         font-size: 5.5rem;
     }
 }
 
 @media only screen and (min-width: 1920px) {
+    .container {
+        padding: 3.2rem 3.2rem 12rem;
+    }
+
     .heading {
         font-size: 6.5rem;
     }

@@ -1,0 +1,83 @@
+.container {
+    padding: 4rem;
+    background-color: #181818;
+    text-align: center;
+}
+
+.text1 {
+    color: #828282;
+    margin: 1em 0;
+}
+
+.heading {
+    color: #f0f0f0;
+    font-size: 1.7rem;
+    margin: .5em 0;
+}
+
+.text2 {
+    color: #9F9F9F;
+}
+
+@media only screen and (min-width: 425px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .heading {
+        font-size: 2.5rem;
+        margin: .3em 0;
+    }
+
+    .text2 {
+        margin: 0 4em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .text1 {
+        margin: .5em 0;
+        font-size: 1.2rem;
+    }
+    
+    .heading {
+        font-size: 3rem;
+    }
+
+    .text2 {
+        margin: .5em 5em;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .text1 {
+        font-size: 1.5rem;
+    }
+    
+    .heading {
+        font-size: 4rem;
+    }
+
+    .text2 {
+        margin: .5em 9em;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .text1 {
+        font-size: 1.8rem;
+    }
+    
+    .heading {
+        font-size: 5rem;
+    }
+
+    .text2 {
+        margin: .5em 12em;
+        font-size: 1.8rem;
+    }
+}
