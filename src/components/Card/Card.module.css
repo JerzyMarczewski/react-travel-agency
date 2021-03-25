@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    max-width: 20rem;
+    margin: 2rem 0;
+}
+
+.avatarContainer {
+    background-color: #313131;
+    padding: 1rem 0;
+    border-bottom: 3px solid #04724D;
+    border-radius: 1.5rem 1.5rem 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    border: 3px solid #04724D;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.textContainer {
+    background-color: #272727;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.text {
+    font-size: .6rem;
+    color: #f3f3f3;
+}
+
+@media only screen and (min-width:375px) {
+    .text {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (min-width:425px) {
+    .text {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .container {
+        max-width: 18rem;
+        margin: 2rem 1rem;
+
+        flex-basis: 100%;
+    }
+    
+    .textContainer {
+        padding: 2rem 2.5rem 2.5rem;
+    }
+
+    .text {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .container {
+        max-width: 20rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width:1920px) {
+    .container {
+        max-width: 25rem;
+    }
+
+    .avatarContainer {
+        padding: 1.2rem 0;
+    }
+
+    .avatar {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .textContainer {
+        padding: 2.5rem 2.5rem 3.5rem;
+    }
+    
+
+    .text {
+        font-size: 1.4rem;
+    }
+}
+
