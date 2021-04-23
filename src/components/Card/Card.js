@@ -5,7 +5,10 @@ const Card = (props) => {
     return (
         <div className={styles.container}>
             <div className={styles.avatarContainer}>
-                <div className={styles.avatar} style={{backgroundImage: `url(${props.avatar})`}}></div>
+                <div 
+                    className={styles.avatar} 
+                    style={{backgroundImage: `url(${props.avatar})`}}>
+                </div>
             </div>
             <div className={styles.textContainer}>
                 <p className={styles.text}>{props.text}</p>

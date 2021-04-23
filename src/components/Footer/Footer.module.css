@@ -1,0 +1,98 @@
+.container {
+    color: #777;
+    background-color: #222;
+    padding: 0;
+}
+
+.topContainer {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.topContainer h1{
+    color: #888;
+    font-size: 1.2rem;
+    margin: .55em 0;
+}
+
+.topContainer ul {
+    list-style: none;
+    
+}
+
+.topContainer li {
+    cursor: pointer;
+}
+
+.newsletter input {
+    font-size: .8rem;
+    padding: 1em 1.5em;
+    outline: none;
+    border: none;
+    border-radius: 2em 0 0 2em;
+    background-color: #aaa;
+    color: #222;
+}
+
+.newsletter input::placeholder {
+    color: #222;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputButton {
+    height: 100%;
+    background-color: #04724D;
+    color: #222;
+    padding: 1em 1.5em;
+    font-size: .8rem;
+    border-radius: 0 2em 2em 0;
+    cursor: pointer;
+}
+
+.bottomContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    padding: .5em 1em;
+    font-size: 0.7rem;
+}
+
+.bottomContainer i {
+    font-size: .85rem;
+    margin: 0 .5em;
+}
+
+@media only screen and (min-width:600px) {
+    .container {
+        padding: 0;
+    }
+
+    .topContainer {
+        padding: 2rem 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .about,
+    .newsletter {
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .topContainer h1{
+
+        font-size: 1.2rem;
+    }
+}
